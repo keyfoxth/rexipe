@@ -1,0 +1,22 @@
+{
+  "name": "rexipe",
+  "version": "0.0.1",
+  "main": "dist/rexipe.common.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyfoxth/rexipe.git"
+  },
+  "author": "Yuwei",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.9.0",
+    "eslint-config-x": "^1.0.0",
+    "rollup": "^0.50.0"
+  }
+}
