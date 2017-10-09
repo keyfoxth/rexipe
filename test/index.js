@@ -3,3 +3,4 @@ require('babel-register')({
 })
 
 module.exports = require('./isNull.test')
+module.exports = require('./isUndefined.test')
