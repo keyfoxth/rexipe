@@ -4,6 +4,7 @@
   "main": "dist/rexipe.common.js",
   "scripts": {
     "dev": "rollup -c -w",
+    "flow": "flow",
     "test": "node test"
   },
   "repository": {
@@ -13,10 +14,15 @@
   "author": "Yuwei",
   "license": "MIT",
   "devDependencies": {
+    "babel-eslint": "^8.0.1",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "eslint": "^4.9.0",
     "eslint-config-x": "^1.0.0",
-    "rollup": "^0.50.0"
+    "eslint-plugin-flowtype": "^2.39.1",
+    "flow-bin": "^0.56.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-cleanup": "^1.0.1",
+    "rollup-plugin-flow": "^1.1.1"
   }
 }
