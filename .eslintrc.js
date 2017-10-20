@@ -7,10 +7,5 @@ module.exports = {
   extends: [
     'x',
     'plugin:flowtype/recommended'
-  ],
-  rules: {
-    'flowtype/require-parameter-type': 2,
-    'flowtype/require-return-type': 2,
-    'flowtype/require-variable-type': 2
-  }
+  ]
 }
