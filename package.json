@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "rollup -c -w",
     "flow": "flow",
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "eslint-plugin-flowtype": "^2.39.1",
     "flow-bin": "^0.56.0",
     "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
     "rollup": "^0.50.0",
     "rollup-plugin-cleanup": "^1.0.1",
     "rollup-plugin-flow": "^1.1.1"
